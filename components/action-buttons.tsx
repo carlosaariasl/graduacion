@@ -37,7 +37,7 @@ export function ActionButtons() {
     "https://www.google.com/maps/search/El+Rinc%C3%B3n+del+Steak+Carretera+a+El+Salvador"
 
   const whatsappUrl =
-    "https://wa.me/?text=Confirmo%20mi%20asistencia%20a%20la%20graduaci%C3%B3n%20de%20Victoria%20Elizabeth"
+    "https://wa.link/uatcsc"
 
   const calendarUrl = (() => {
     const title = encodeURIComponent(
@@ -70,7 +70,7 @@ export function ActionButtons() {
           <InvitationButton
             href={whatsappUrl}
             icon={MessageCircle}
-            label="Confirmar Asistencia (RSVP)"
+            label="Confirmar Asistencia"
             ariaLabel="Confirmar asistencia por WhatsApp"
           />
           <InvitationButton
