@@ -60,6 +60,27 @@ export function HeroSection() {
           Universidad del Istmo &bull; Universidad de San Carlos de Guatemala
         </p>
       </FadeInSection>
+
+      <FadeInSection delay={700}>
+        <div className="mt-12 flex flex-col items-center">
+          <div className="relative overflow-hidden rounded-xl border-2 border-gold/30 shadow-lg shadow-gold/10">
+            <Image
+              src="/images/victoria-graduacion.jpg"
+              alt="Victoria Elizabeth Juárez Mazariegos en su graduación"
+              width={360}
+              height={480}
+              className="block object-cover"
+              sizes="(max-width: 768px) 280px, 360px"
+              priority
+            />
+          </div>
+          <div className="mt-6 flex items-center justify-center gap-3">
+            <span className="h-px w-12 bg-gold/30 md:w-20" />
+            <span className="inline-block h-1.5 w-1.5 rotate-45 bg-gold/50" />
+            <span className="h-px w-12 bg-gold/30 md:w-20" />
+          </div>
+        </div>
+      </FadeInSection>
     </section>
   )
 }
