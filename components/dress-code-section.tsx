@@ -4,9 +4,9 @@ import { GoldDividerSimple } from "./gold-divider"
 
 export function DressCodeSection() {
   return (
-    <section className="px-6 py-16 text-center md:py-24">
+    <section className="px-6 py-14 text-center md:py-20">
       <FadeInSection>
-        <GoldDividerSimple className="mb-12" />
+        <GoldDividerSimple className="mb-8" />
       </FadeInSection>
 
       <FadeInSection delay={200}>
@@ -40,9 +40,6 @@ export function DressCodeSection() {
         </p>
       </FadeInSection>
 
-      <FadeInSection delay={800}>
-        <GoldDividerSimple className="mt-12" />
-      </FadeInSection>
     </section>
   )
 }

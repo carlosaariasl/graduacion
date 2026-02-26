@@ -4,9 +4,9 @@ import { GoldDividerSimple } from "./gold-divider"
 
 export function TeEsperamosSection() {
   return (
-    <section className="px-6 py-16 text-center md:py-24">
+    <section className="px-6 py-14 text-center md:py-20">
       <FadeInSection>
-        <GoldDividerSimple className="mb-12" />
+        <GoldDividerSimple className="mb-8" />
       </FadeInSection>
 
       {/* Photos stacked like the reference */}
@@ -40,7 +40,7 @@ export function TeEsperamosSection() {
 
       {/* Text below photos */}
       <FadeInSection delay={600}>
-        <div className="mt-12 flex flex-col items-center gap-2">
+        <div className="mt-8 flex flex-col items-center gap-2">
           <h2 className="text-2xl tracking-[0.25em] font-semibold text-brown md:text-3xl">
             TE ESPERAMOS
           </h2>
@@ -53,9 +53,6 @@ export function TeEsperamosSection() {
         </div>
       </FadeInSection>
 
-      <FadeInSection delay={800}>
-        <GoldDividerSimple className="mt-12" />
-      </FadeInSection>
     </section>
   )
 }

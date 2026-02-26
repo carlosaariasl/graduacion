@@ -56,7 +56,7 @@ export function ActionButtons() {
 
   return (
     <section
-      className="px-6 py-12 md:py-16"
+      className="px-6 py-10 md:py-12"
       aria-label="Acciones de confirmación"
     >
       <FadeInSection>

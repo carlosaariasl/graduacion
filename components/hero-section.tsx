@@ -5,7 +5,7 @@ import { GoldDivider } from "./gold-divider"
 export function HeroSection() {
   return (
     <section
-      className="flex min-h-[85vh] flex-col items-center justify-center px-6 py-20 text-center"
+      className="flex min-h-[85vh] flex-col items-center justify-center px-6 pb-10 pt-20 text-center"
       aria-label="Invitación de graduación"
     >
       <FadeInSection>
@@ -62,7 +62,7 @@ export function HeroSection() {
       </FadeInSection>
 
       <FadeInSection delay={700}>
-        <div className="mt-12 flex flex-col items-center">
+        <div className="mt-8 flex flex-col items-center">
           <div className="relative overflow-hidden rounded-xl border-2 border-gold/30 shadow-lg shadow-gold/10">
             <Image
               src="/images/victoria-graduacion.jpg"
