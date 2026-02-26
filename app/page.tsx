@@ -3,6 +3,7 @@ import { GraduateSection } from "@/components/graduate-section"
 import { EventSection } from "@/components/event-section"
 import { LocationSection } from "@/components/location-section"
 import { ActionButtons } from "@/components/action-buttons"
+import { CountdownSection } from "@/components/countdown-section"
 import { FooterDedication } from "@/components/footer-dedication"
 import { CandleGlow } from "@/components/candle-glow"
 
@@ -33,6 +34,7 @@ export default function Page() {
         <EventSection />
         <LocationSection />
         <ActionButtons />
+        <CountdownSection />
         <FooterDedication />
       </div>
     </main>
