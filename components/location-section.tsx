@@ -4,7 +4,7 @@ import { FadeInSection } from "./fade-in-section"
 export function LocationSection() {
   return (
     <section
-      className="px-6 py-16 text-center md:py-20"
+      className="px-6 py-12 text-center md:py-16"
       aria-label="Ubicación del evento"
     >
       <FadeInSection>

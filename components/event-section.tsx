@@ -5,11 +5,11 @@ import { GoldDivider } from "./gold-divider"
 export function EventSection() {
   return (
     <section
-      className="px-6 py-16 text-center md:py-24"
+      className="px-6 py-14 text-center md:py-20"
       aria-label="Detalles del evento"
     >
       <FadeInSection>
-        <GoldDivider className="mb-12" />
+        <GoldDivider className="mb-8" />
       </FadeInSection>
 
       <FadeInSection delay={200}>

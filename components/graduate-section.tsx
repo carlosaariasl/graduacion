@@ -4,7 +4,7 @@ import { GoldDividerSimple } from "./gold-divider"
 export function GraduateSection() {
   return (
     <section
-      className="px-6 py-16 text-center md:py-24"
+      className="px-6 py-14 text-center md:py-20"
       aria-label="Información de la graduada"
     >
       <FadeInSection>

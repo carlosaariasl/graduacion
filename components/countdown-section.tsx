@@ -44,11 +44,11 @@ export function CountdownSection() {
 
   return (
     <section
-      className="px-6 py-16 text-center md:py-24"
+      className="px-6 py-14 text-center md:py-20"
       aria-label="Cuenta regresiva"
     >
       <FadeInSection>
-        <GoldDividerSimple className="mb-12" />
+        <GoldDividerSimple className="mb-8" />
       </FadeInSection>
 
       {/* Title */}
@@ -99,7 +99,7 @@ export function CountdownSection() {
 
       {/* Date */}
       <FadeInSection delay={600}>
-        <div className="mt-12 flex flex-col items-center gap-1">
+        <div className="mt-8 flex flex-col items-center gap-1">
           <p className="text-sm uppercase tracking-[0.3em] text-brown-light md:text-base">
             Marzo
           </p>
@@ -118,7 +118,7 @@ export function CountdownSection() {
       {/* "Con la bendicion de mis padres" */}
       <FadeInSection delay={800}>
         <p
-          className="mx-auto mt-14 max-w-sm font-serif text-xl leading-relaxed text-gold italic md:text-2xl"
+          className="mx-auto mt-10 max-w-sm font-serif text-xl leading-relaxed text-gold italic md:text-2xl"
           style={{ fontFamily: "var(--font-great-vibes)" }}
         >
           {"Con la bendicion de mis padres"}

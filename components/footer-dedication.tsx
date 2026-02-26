@@ -3,9 +3,9 @@ import { GoldDividerSimple } from "./gold-divider"
 
 export function FooterDedication() {
   return (
-    <footer className="px-6 py-16 text-center md:py-24" role="contentinfo">
+    <footer className="px-6 py-14 text-center md:py-20" role="contentinfo">
       <FadeInSection>
-        <GoldDividerSimple className="mb-10" />
+        <GoldDividerSimple className="mb-8" />
       </FadeInSection>
 
       <FadeInSection delay={200}>
@@ -19,7 +19,7 @@ export function FooterDedication() {
       </FadeInSection>
 
       <FadeInSection delay={400}>
-        <GoldDividerSimple className="mt-10" />
+        <GoldDividerSimple className="mt-8" />
       </FadeInSection>
     </footer>
   )
