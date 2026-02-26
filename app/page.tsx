@@ -4,6 +4,7 @@ import { EventSection } from "@/components/event-section"
 import { LocationSection } from "@/components/location-section"
 import { ActionButtons } from "@/components/action-buttons"
 import { CountdownSection } from "@/components/countdown-section"
+import { TeEsperamosSection } from "@/components/te-esperamos-section"
 import { FooterDedication } from "@/components/footer-dedication"
 import { CandleGlow } from "@/components/candle-glow"
 
@@ -35,6 +36,7 @@ export default function Page() {
         <LocationSection />
         <ActionButtons />
         <CountdownSection />
+        <TeEsperamosSection />
         <FooterDedication />
       </div>
     </main>
