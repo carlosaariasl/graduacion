@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { FadeInSection } from "./fade-in-section"
 import { GoldDivider } from "./gold-divider"
 
@@ -33,44 +34,30 @@ export function HeroSection() {
       </FadeInSection>
 
       <FadeInSection delay={500}>
-        <div className="flex items-center justify-center gap-8 md:gap-12">
-          <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gold/30 bg-cream-dark/50 md:h-24 md:w-24">
-            <span className="text-xs font-semibold uppercase tracking-wider text-brown-light">
-              UNIS
-            </span>
+        <div className="flex items-center justify-center gap-8 md:gap-14">
+          <div className="relative h-24 w-24 overflow-hidden md:h-28 md:w-28">
+            <Image
+              src="/images/logounis.png"
+              alt="Escudo de la Universidad del Istmo - UNIS"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 96px, 112px"
+              priority
+            />
           </div>
-          <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gold/30 bg-cream-dark/50 md:h-24 md:w-24">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              className="text-brown-light"
-            >
-              <circle
-                cx="16"
-                cy="16"
-                r="14"
-                stroke="currentColor"
-                strokeWidth="1"
-              />
-              <circle
-                cx="16"
-                cy="16"
-                r="10"
-                stroke="currentColor"
-                strokeWidth="0.5"
-              />
-              <path
-                d="M16 6V26M6 16H26"
-                stroke="currentColor"
-                strokeWidth="0.5"
-              />
-            </svg>
+          <div className="relative h-24 w-24 overflow-hidden md:h-28 md:w-28">
+            <Image
+              src="/images/logousac.png"
+              alt="Escudo de la Universidad de San Carlos de Guatemala - USAC"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 96px, 112px"
+              priority
+            />
           </div>
         </div>
         <p className="mt-4 text-xs tracking-widest text-brown-light/70">
-          Universidad del Istmo
+          Universidad del Istmo &bull; Universidad de San Carlos de Guatemala
         </p>
       </FadeInSection>
     </section>
