@@ -9,7 +9,7 @@ export function HeroSection() {
       aria-label="Invitación de graduación"
     >
       <FadeInSection>
-        <p className="mb-6 text-sm font-medium uppercase tracking-[0.3em] text-brown-light md:text-base">
+        <p className="mb-6 text-sm font-medium uppercase tracking-[0.3em] text-brown md:text-base">
           Con la bendición de Dios
         </p>
       </FadeInSection>
