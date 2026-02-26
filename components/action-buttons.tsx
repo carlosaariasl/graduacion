@@ -37,7 +37,7 @@ export function ActionButtons() {
     "https://www.google.com/maps/search/El+Rinc%C3%B3n+del+Steak+Carretera+a+El+Salvador"
 
   const whatsappUrl =
-    "https://wa.link/uatcsc"
+    "https://wa.link/6w30ym"
 
   const calendarUrl = (() => {
     const title = encodeURIComponent(
