@@ -97,24 +97,6 @@ export function CountdownSection() {
         </div>
       </FadeInSection>
 
-      {/* Date */}
-      <FadeInSection delay={600}>
-        <div className="mt-8 flex flex-col items-center gap-1">
-          <p className="text-sm uppercase tracking-[0.3em] text-brown-light md:text-base">
-            Marzo
-          </p>
-          <p
-            className="text-6xl font-semibold text-gold md:text-8xl"
-            style={{ fontFamily: "var(--font-great-vibes)" }}
-          >
-            6
-          </p>
-          <p className="text-lg font-medium tracking-widest text-foreground md:text-xl">
-            2026
-          </p>
-        </div>
-      </FadeInSection>
-
       {/* "Con la bendicion de mis padres" */}
       <FadeInSection delay={800}>
         <p
